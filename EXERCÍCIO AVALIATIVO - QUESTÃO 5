@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Lista 1 – Questão 5</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 20px;
+    }
+    h2 { margin-top: 25px; }
+    .pais {
+      margin-bottom: 10px;
+    }
+    img {
+      height: 25px;
+      margin-left: 8px;
+      vertical-align: middle;
+    }
+  </style>
+</head>
+<body>
+  <h1>Países pelo Mundo</h1>
+
+  <h2>América</h2>
+  <div class="pais">
+    <a href="https://pt.wikipedia.org/wiki/Brasil" target="_blank">Brasil</a>
+    <a href="https://pt.wikipedia.org/wiki/Brasil" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/en/0/05/Flag_of_Brazil.svg" alt="Brasil">
+    </a>
+  </div>
+  <div class="pais">
+    <a href="https://pt.wikipedia.org/wiki/México" target="_blank">México</a>
+    <a href="https://pt.wikipedia.org/wiki/México" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/Flag_of_Mexico.svg" alt="México">
+    </a>
+  </div>
+
+  <h2>Europa</h2>
+  <div class="pais">
+    <a href="https://pt.wikipedia.org/wiki/França" target="_blank">França</a>
+    <a href="https://pt.wikipedia.org/wiki/França" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/en/c/c3/Flag_of_France.svg" alt="França">
+    </a>
+  </div>
+  <div class="pais">
+    <a href="https://pt.wikipedia.org/wiki/It%C3%A1lia" target="_blank">Itália</a>
+    <a href="https://pt.wikipedia.org/wiki/It%C3%A1lia" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/en/0/03/Flag_of_Italy.svg" alt="Itália">
+    </a>
+  </div>
+</body>
+</html>
