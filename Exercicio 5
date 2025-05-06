@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Frutas que eu gosto 🍓</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8fbff;
+      color: #333;
+      text-align: center;
+      padding: 30px;
+    }
+
+    h1 {
+      color: #2c3e50;
+    }
+
+    p {
+      margin-bottom: 20px;
+      color: #555;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      background-color: #d4f5d3;
+      margin: 8px auto;
+      padding: 12px;
+      width: 220px;
+      border-radius: 10px;
+      font-size: 18px;
+      box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body>
+  <h1> Minhas Frutas</h1>
+  <p>Essas são algumas frutas que eu gosto.😄</p>
+  <ul id="listaFrutas"></ul>
+
+  <script>
+    const frutas = [
+      "Maçã",
+      "Banana",
+      "Morango",
+      "Uva",
+      "Abacaxi",
+      "Cereja",
+      "Goiaba",
+      "Melão"
+    ];
+
+    const lista = document.getElementById("listaFrutas");
+
+    for (let i = 0; i < frutas.length; i++) {
+      const item = document.createElement("li");
+      item.textContent = frutas[i];
+      lista.appendChild(item);
+    }
+  </script>
+</body>
+</html>
