@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Notas dos Alunos</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 20px;
+    }
+    h1 {
+      color: blue;
+    }
+    .aprovado {
+      color: green;
+    }
+    .reprovado {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <h1>Como os alunos se saíram</h1>
+  <div id="resultado"></div>
+
+  <script>
+    let notas = {
+      "Ana": 8,
+      "Bruno": 6,
+      "Carlos": 7,
+      "Diana": 9,
+      "Edu": 4
+    };
+
+    let div = document.getElementById("resultado");
+
+    for (let aluno in notas) {
+      let nota = notas[aluno];
+
+      if (nota >= 7) {
+        div.innerHTML += `<p class="aprovado">${aluno} Não fez mais do que a sua obrigação! Tirou ${nota} e passou 👏</p>`;
+      } else {
+        div.innerHTML += `<p class="reprovado">${aluno} tirou ${nota}.Não foi dessa vez KKKKKKKKKKK 💪</p>`;
+      }
+    }
+  </script>
+</body>
+</html>
